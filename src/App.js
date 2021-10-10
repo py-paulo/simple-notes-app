@@ -41,7 +41,7 @@ class App extends Component {
             </Segment>
           </Grid.Column>
 
-          <Grid.Column>
+          <Grid.Column width={12}>
             <NoteList notes={this.notes}/>
           </Grid.Column>
 
